@@ -170,9 +170,7 @@ for file = files'
 
     plot(yy1,'k','LineWidth',1)
     hold on
-    %plot(yy2,'m','LineWidth',1)
     plot(yy3,'r','LineWidth',1)
-    % title('多峰函数Generaliaed Rosenbrock最优个体适应度曲线','fontsize',15);
     xlabel('迭代次数','fontsize',15);ylabel('适应度值','fontsize',15);
     legend('粒子群算法','基于遗传思想的粒子群算法');
     saveas(gcf, fullfile(resultsFolder, [file.name, '_plot.fig']));

@@ -83,18 +83,5 @@ function res_y= my_PSO(path)
         yy1(i)=fitnesszbest;   
         
     end
-
-    % plot(yy1,'r','LineWidth',1)
-    % title('多峰函数Generaliaed Rosenbrock最优个体适应度曲线','fontsize',15);
-    % xlabel('迭代次数','fontsize',15);ylabel('适应度值','fontsize',15);
-    % legend('粒子群算法');
-    % saveas(gcf, fullfile(resultsFolder, [file.name, '_plot.png']));
-    % 保存适应度最小值
-    % minbest = min(yy1);
-    % meanbest = mean(yy1);
-    % stdbest = std(yy1);
-    % save(fullfile(resultsFolder, [file.name, '_results.mat']), 'zbest', 'minbest', 'meanbest', 'stdbest');
-    % disp("已保存");
-    % close all; % 关闭图形窗口
     res_y = yy1;
 end

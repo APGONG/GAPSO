@@ -8,8 +8,8 @@ clear
 %目标函数的最小值：fv
 %% 参数初始化
 %粒子群算法中的两个参数
-c1 = 1.49445;%学习因子
-c2 = 1.49445;%学习因子
+c1 = 1.5;%学习因子
+c2 = 1.5;%学习因子
 wmax=0.9;%惯性因子最大值
 wmin=0.4;%惯性因子最小值
 
@@ -21,8 +21,6 @@ Vmax=1;
 Vmin=-1;
 popmax=4;
 popmin=-4;
-randdata1= xlsread('E:\MATLABOBJ\CPSO\randdata1');
-randdata2= xlsread('E:\MATLABOBJ\CPSO\randdata2');
 %path = 'E:\matlab2023obj\TSP_problem\xpr2308tsp.txt';
 
 % 获取所有TSP文件
